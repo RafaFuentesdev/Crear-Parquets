@@ -53,7 +53,7 @@ for nombre_archivo in nombre_archivos:
     
     # Agregar el dataframe a la lista
     dataframes.append(df)
-    print(dataframes)
+    print(f"Actualizado {nombre_archivo}")
 
 # Unir dataframes en función de la columna "Id"
 df_final = dataframes[0]
