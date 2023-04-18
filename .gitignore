@@ -1,0 +1,6 @@
+parquet
+venv
+*.txt
+*.png
+!requirements.txt
+.DS_Store
